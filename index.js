@@ -100,6 +100,10 @@ app.get('/success', (req, res) => {
   res.send('')
 })
 
+app.get('/check', (req, res) => {
+  res.send('');
+});
+
 app.get('/', (req, res) => {
   res.send(`Hello<br>
     <a href="/auth" target="${loginAuthTarget}">
